@@ -10,6 +10,7 @@ function App() {
       <button>Menu1</button>
       <button>Menu2</button>
       <div>Hello</div>
+      <div>World</div>
     </div>
   )
 }
