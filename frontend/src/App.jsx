@@ -4,8 +4,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>Hello</h1>
-    <h2>World</h2>
+    <div>
+      <button>About</button>
+      <button>Help</button>
+      <button>Menu1</button>
+      <button>Menu2</button>
+    </div>
   )
 }
 
