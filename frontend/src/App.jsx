@@ -1,17 +1,13 @@
 import { useState } from 'react'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>
-      <button>About</button>
-      <button>Help</button>
-      <button>Menu1</button>
-      <button>Menu2</button>
-      <div>Hello</div>
-      <div>World</div>
-    </div>
+import { BrowserRouter, Routes, Route } from 'react-router';
+import Login from './pages/Login'
+function App(){
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path='/login' element = {<Login/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
