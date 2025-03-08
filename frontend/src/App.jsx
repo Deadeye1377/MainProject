@@ -1,15 +1,14 @@
-import { useEffect, useState } from 'react'
-
-function App() {
-  const [count, setCount] = useState("")
-  useEffect(()=>{
-    fetch("http://localhost:3000/")
-    .then(response => response.json())
-    .then(data => setCount(data.message))
-    .then(err => console.log(err))
-  })
-  return (
-   <Browse
+import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router';
+import Login from './pages/Login'
+import "./index.css"
+function App(){
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path='/login' element = {<Login/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
