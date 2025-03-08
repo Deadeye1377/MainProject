@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count, setCount] = useState("")
+  useEffect(()=>{
+    fetch("http://localhost:3000/")
+    .then(response => response.json())
+    .then(data => setCount(data.message))
+    .then(err => console.log(err))
+  })
   return (
-    <div>
-      <button>About</button>
-      <button>Help</button>
-      <button>Menu1</button>
-      <button>Menu2</button>
-      <div>Hello</div>
-      <div>World</div>
-    </div>
+   <Browse
   )
 }
 
