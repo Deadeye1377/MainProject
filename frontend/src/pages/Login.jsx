@@ -9,6 +9,10 @@ export default function Login() {
         <input type="text" id="login-input" placeholder="Enter your email" />
         <label htmlFor="login-input">Password</label>
         <input type="text" id="login-input" placeholder="Enter your password" />
+        <div className="SignUp">
+            <a a href="#">Forget your password?</a> 
+            <a href="#">Create an account</a>
+        </div>
       </div>
       <button className="login-button">Submit</button>
     </div>

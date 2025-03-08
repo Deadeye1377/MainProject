@@ -1,0 +1,8 @@
+@font-face {
+    font-family: inter;
+    src: url(https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Moderustic:wght@300..800|Playwrite+NL:wght@100..400);
+}
+
+body{
+    font-family: Arial;
+}
