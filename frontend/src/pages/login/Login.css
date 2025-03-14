@@ -1,0 +1,104 @@
+
+
+.container img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color:#232136;
+    color: white;
+    padding: 54px;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    width: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.login-container h2{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    margin: auto 0;
+    padding: 12px 0;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .input-group input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #191724;
+    border-color: 2px solid ;
+    margin: 10px;
+    position: static;
+    color: #faf4ed;
+    margin-bottom: 25px;
+  }
+  .input-group label{
+    margin: 0px 10px;
+    position: static;
+    
+  }
+  .input-group input:focus{
+   outline-style: solid;
+   outline-color: #faf4ed;
+   transition: 0.2s;
+
+  }
+  .SignUp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+
+
+  }
+
+  .SignUp a{
+    text-decoration: none;
+    color: #faf4ed;
+  }
+  
+  .login-button-container {
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    width: 300px;
+    background-color: #3861FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-button-container button{
+    padding: 12px;
+    background-color:#3861FB ;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 300px;
+   
+}
