@@ -3,15 +3,17 @@ import "./UserButton.css";
 import { Link } from "react-router";
 
 function UserButton() {
-  const currentUser = false;
+  const currentUser = true;
   const [open, setOpen] = useState(false);
 
   return currentUser ? (
     <div className="user">
-      <img src="/asset/user.svg" onClick = {() => setOpen(!open)}alt="User"  />
+      <img src="/asset/user.svg" onClick={() => setOpen(!open)} alt="User" />
       {open && (
         <div className="dropdown-menu">
-          <div className="dropdown">PROFILE</div>
+          <Link to="/profile">
+            <div className="dropdown">PROFILE</div>
+          </Link>
           <div className="dropdown">LOGOUT</div>
           <div className="dropdown">ABOUT</div>
         </div>
@@ -19,10 +21,10 @@ function UserButton() {
     </div>
   ) : (
     <div className="loginContainer">
-    <Link to="/login">
-      <button>Login</button>
-    </Link>
-  </div>
+      <Link to="/login">
+        <button>Login</button>
+      </Link>
+    </div>
   );
 }
 
