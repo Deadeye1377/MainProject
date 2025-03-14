@@ -1,8 +1,23 @@
 @font-face {
     font-family: inter;
-    src: url(https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Moderustic:wght@300..800|Playwrite+NL:wght@100..400);
+    src: url('https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Jost:ital,wght@0,100..900;1,100..900|Moderustic:wght@300..800|Playwrite+NL:wght@100..400')
+}
+
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+*{
+    margin:0px;
+    padding: 0px;
 }
 
 body{
-    font-family: inter;
+    font-family: "Roboto";
 }

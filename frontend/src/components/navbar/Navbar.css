@@ -1,0 +1,54 @@
+
+.navbar_logo{
+    width: 52px;
+    height: 52px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar{
+    background-color: #0D1421;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #323546;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.inputField:hover{
+    background-color: #535564;
+}
+
+
+.inputField img{
+    height: 22px;
+    width: 22px;
+}
+
+.inputField input{ 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Roboto";
+
+}
+
