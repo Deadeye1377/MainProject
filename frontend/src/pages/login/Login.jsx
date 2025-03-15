@@ -8,7 +8,7 @@ export default function Login() {
     <Navbar/>
     <div className="container">
       
-      <img src="/asset/bg-login.jpg" alt="" />
+      {/* <img src="/asset/bg-login.jpg" alt="" /> */}
     <div className="login-container">
       <h2>Login</h2>
       <div className="input-group">
