@@ -1,81 +1,73 @@
-.profile-body{
-    background-color: #191724;
+.profile-body {
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #191724;
 }
-
 .profile {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 48px 48px 48px 28px;
-    background-color: #232136;
-    color: #faf4ed;
-    border-radius: 12px;
-    width: 480px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
-  
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #232136;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #faf4ed;
 }
-
-.profile h2 {
-    padding-bottom: 16px;
-    border-bottom: 1px solid #3b3939;
-   
+h1 {
+  font-size: 28px;
+  color: #faf4ed;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
-
-.profile h1{
-    padding-bottom: 16px;
-    
-
+h2 {
+  font-size: 20px;
+  color: #faf4ed;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #3b3939;
 }
-
-.profile-details {
-    display: flex;
-    flex-direction: column;
-    width: 480px;
-    padding-top: 8x;
-    height: 900px;
-}
-
 .profile-details label {
-    text-align: left;
-    font-size: 16px;
-    padding-top: 16px;
+  display: block;
+  margin-bottom: 4px;
+  color: #faf4ed;
+  font-weight: 500;
+  padding-top: 16px;
+  text-align: left;
+  font-size: 16px;
 }
-
 .profile-input {
-    padding: 8px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #423d58;
-    color: #faf4ed;
-    font-size: 14px;
-    width: 100%;
-    margin-bottom: 16px;
-
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #423d58;
+  color: #faf4ed;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box; /* This ensures padding doesn't add to width */
 }
-
-
-
+.profile-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
 textarea.profile-input {
-    resize: none;
+  resize: none;
 }
-
 .save-btn {
-    background-color: #3861FB;
-    color:white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-    margin-bottom: 40px;
-    font-weight: bold;
-    width: 88px;
-
+  width: 88px;
+  padding: 12px;
+  background-color: #3861fb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
-
 .save-btn:hover {
-    background-color: #456cf5;
+  background-color: #456cf5;
 }
